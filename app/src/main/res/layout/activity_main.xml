@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtAllText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="textEnd"
+        tools:layout_editor_absoluteX="176dp" />
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="textEnd"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteY="65dp" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bntDeleteAll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="@string/ce"
+ />
+
+            <Button
+                android:id="@+id/btnDeleteOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/button" />
+
+            <Button
+                android:id="@+id/btnDeleteCharacter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/del" />
+
+            <Button
+                android:id="@+id/btnDivide"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:text="@string/slesh" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/bnt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_1"
+/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/bnt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnX"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/x" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/minus" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/_9"
+
+                />
+
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/plus" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/_0" />
+
+            <Button
+                android:id="@+id/buttonPoint"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/point" />
+
+            <Button
+                android:id="@+id/btnEquels"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/equels" />
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
